@@ -30,7 +30,10 @@ body{
 	margin-bottom: 2em;
 }
 
-a:link, a:visited, a:active, a:hover{
+a:link,
+a:visited,
+a:active,
+a:hover{
 	color: #2d3c49;
 }
 
@@ -44,7 +47,7 @@ section>h2{
 
 article>img{
 	display: block;
-	margin: 0 auto 0 auto;
+	margin: 0 auto;
 	width: 100%;
 }
 
