@@ -1,0 +1,53 @@
+body{
+	color: #2d3c49;
+}
+
+#headerLogoContainer{
+	margin: .5em auto 2em auto;
+}
+
+#headerLogoContainer>img{
+	width: 5em;
+	height: 5em;
+}
+
+#headerTextContainer{
+	text-align: right;
+}
+
+#headerTextContainer>h1{
+	margin-bottom: 0;
+}
+
+#headerTextContainer>h2{
+	font-size: 1.1em;
+}
+
+#dividerLine::after{
+	content: "";
+	display: block;
+	border-bottom: .25em solid #7d97ad;
+	margin-bottom: 2em;
+}
+
+a:link, a:visited, a:active, a:hover{
+	color: #2d3c49;
+}
+
+section>h2{
+	color: #7d97ad;
+}
+
+#featuredWorkHeadline{
+	padding: 0 0 0 .75em;
+}
+
+article>img{
+	display: block;
+	margin: 0 auto 0 auto;
+	width: 100%;
+}
+
+article>h2, p{
+	text-align: center;
+}

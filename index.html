@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jane Doette</title>
+	<link rel="stylesheet" href="css/foundation.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="js/vendor/jquery.js"></script>
+	<script src="js/vendor/what-input.min.js"></script>
+	<script src="js/vendor/foundation.js"></script>
+</head>
+
+<body>
+
+	<header class="row">
+		<div class="small-3 columns" id="headerLogoContainer">
+			<img src="images/udacity_logo.svg" alt="Udacity Logo">
+		</div>
+
+		<div class="small-9 columns" id="headerTextContainer">
+			<h1>JANE DOETTE</h1>
+			<h2>FRONT-END NINJA</h2>
+		</div>
+	</header>
+
+	<div class="row column" id="dividerLine"></div>
+	
+	<!-- When using Interchange for responsive images using the "src" attribute for images is not recommended. --> 
+
+	<main class="row">
+		<img class="small-12 columns" data-interchange="[images/main_image_small.png, small], [images/main_image.png, large]" alt="Main Image">
+		<noscript><img src="images/main_image.png" alt="Main Image"></noscript>
+	</main>
+	
+	<section class="row" data-equalizer>
+		<h2 id="featuredWorkHeadline">Featured Work</h2>	
+		<article class="small-12 medium-6 large-4 columns" data-equalizer-watch>
+			<img data-interchange="[images/image_1_small.png, small], [images/image_1.png, large]" alt="Appify Artwork">
+			<noscript><img src="images/image_1.png" alt="Appify Artwork"></noscript>
+			<h2>APPIFY</h2>
+			<p><a href="https://github.com/udacity/Appify/" target="_blank">https://github.com/udacity/Appify/</a></p>
+		</article>
+		<article class="small-12 medium-6 large-4 columns" data-equalizer-watch>
+			<img data-interchange="[images/image_2_small.png, small], [images/image_2.png, large]" alt="Sunflower Artwork">
+			<noscript><img src="images/image_2.png" alt="Sunflower Artwork"></noscript>
+			<h2>SUNFLOWER</h2>
+			<p><a href="https://github.com/udacity/Sunflower/" target="_blank">https://github.com/udacity/Sunflower/</a></p>			
+		</article>
+		<article class="small-12 medium-6 large-4 end columns" data-equalizer-watch>
+			<img data-interchange="[images/image_3_small.png, small], [images/image_3.png, large]" alt="Bokeh Artwork">
+			<noscript><img src="images/image_3.png" alt="Bokeh Artwork"></noscript>
+			<h2>BOKEH</h2>
+			<p><a href="https://github.com/udacity/Bokeh/" target="_blank">https://github.com/udacity/Bokeh/</a></p>			
+		</article>
+	</section>
+
+	<script>
+		$(document).foundation();
+	</script>
+
+</body>
+</html>
